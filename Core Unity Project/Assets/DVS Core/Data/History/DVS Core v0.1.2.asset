@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0891d16567ae34aba4a279329e83db, type: 3}
+  m_Name: DVS Core v0.1.2
+  m_EditorClassIdentifier: 
+  Major: 0
+  Minor: 1
+  Build: 2
+  User: Dan Violet Sagmiller
+  Began: 7/3/2018 2:27 PM
+  Completed: 7/4/2018 3:57 PM
+  Product: {fileID: 11400000, guid: 08b580ace07d79044949cb0e677d9207, type: 2}
+  ChangeLog: 'Versions can no longer be created on their own.  Instead, you must use
+    the versioning system.
+
+    Bug found, Deleting the end, or second to last item from the history would lose
+    the current version.  That was fixed.
+
+    Clicking next actually traverses the connections.  no matter what order things
+    were deleted.
+
+'
+  Next: {fileID: 11400000, guid: e1a48a6bf9f00424ab465d2ce2150a03, type: 2}
+  Previous: {fileID: 11400000, guid: 1926f216eb7d1d14c9aaae156c679fb8, type: 2}

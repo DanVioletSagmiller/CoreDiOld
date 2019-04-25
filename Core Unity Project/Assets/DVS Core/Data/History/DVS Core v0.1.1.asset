@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0891d16567ae34aba4a279329e83db, type: 3}
+  m_Name: DVS Core v0.1.1
+  m_EditorClassIdentifier: 
+  Major: 0
+  Minor: 1
+  Build: 1
+  User: Dan Violet Sagmiller
+  Began: 7/2/2018 10:07 PM
+  Completed: 7/3/2018 2:27 PM
+  Product: {fileID: 11400000, guid: 08b580ace07d79044949cb0e677d9207, type: 2}
+  ChangeLog: "First Draft for reliance testing.\n\nProduct : \n - Create Products,
+    by right clicking DVS -> Versioning -> Product.\n - Allows URL, link to latest
+    version, and references to historical versions.\n - Uses object Name as product
+    name.\n - If no version exists for it (after initial construction) it provides
+    a button to generate a v0.1.1 version file.\n\nVersion : \n - Adds a Started Time
+    Stamp at generation\n - A Complete button will set the completion time.\n - -
+    if there is no next version, after completing, you get an undo option\n - Version
+    int fields for Major, Minor, Build\n - Change Log location.\n - User name auto
+    populated from Unity Handle\n - Product mapped to it.\n - Copy Log button generates
+    a formatted text copy of the change log and details.\n - Next button\n - - clicking
+    it autocompletes the current time.\n - - It generates a new version copy, incrementing
+    the build#\n - - if there is another already after it, clicking it will automatically
+    bring you to the most recent copy.  "
+  Next: {fileID: 11400000, guid: 9f8ee53be339d414b9037bb1dfbadda7, type: 2}
+  Previous: {fileID: 11400000}

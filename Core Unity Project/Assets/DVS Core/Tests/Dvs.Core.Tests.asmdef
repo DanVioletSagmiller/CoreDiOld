@@ -1,0 +1,14 @@
+{
+    "name": "Tests",
+    "references": [
+        "Dvs.Core"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
