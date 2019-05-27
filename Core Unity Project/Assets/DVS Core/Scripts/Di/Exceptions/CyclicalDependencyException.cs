@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Dvs.Core.IoC.Exceptions
+namespace Dvs.Core.IoC
 {
     [Serializable]
     public class CyclicalDependencyException : Exception

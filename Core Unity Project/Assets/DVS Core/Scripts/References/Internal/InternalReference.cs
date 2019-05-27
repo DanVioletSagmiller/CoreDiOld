@@ -73,7 +73,17 @@ namespace Dvs.Core
             SerializedProperty property,
             GUIContent label)
         {
-            //TODO: Display/Filter/Select Type to use, add trigger button
+            //TODO: Display/Filter/Select Type to use
+
+            if (GUI.Button(new Rect(new Vector2(0, 0), new Vector2(100, 25)), "Call"))
+            {
+                this.GetType().GetMethod(nameof(CallMe)).MakeGenericMethod(typeof(string)).Invoke(null, null);
+            }
+        }
+
+        private void CallMe<T>()
+        {
+            // does something cool
         }
 
        

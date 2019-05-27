@@ -1,0 +1,1151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 42.666668
+    width: 1824
+    height: 1142.6667
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 950, y: 322}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1824
+    height: 1143
+  m_MinSize: {x: 950, y: 322}
+  m_MaxSize: {x: 10000, y: 10000}
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1824
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: Test
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 1123
+    width: 1824
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1824
+    height: 1093
+  m_MinSize: {x: 613, y: 272}
+  m_MaxSize: {x: 18008, y: 10022}
+  vertical: 0
+  controlID: 152
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1057
+    height: 1093
+  m_MinSize: {x: 102, y: 122}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 9}
+  m_Panes:
+  - {fileID: 11}
+  - {fileID: 12}
+  - {fileID: 13}
+  - {fileID: 9}
+  m_Selected: 3
+  m_LastSelected: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1057
+    y: 0
+    width: 351
+    height: 1093
+  m_MinSize: {x: 234, y: 272}
+  m_MaxSize: {x: 10004, y: 10022}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1408
+    y: 0
+    width: 416
+    height: 1093
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 10}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 72.66667
+    width: 1057
+    height: 1074
+  m_ViewDataDictionary: {fileID: 0}
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 9}
+    newResultList:
+    - id: 1192
+      uniqueId: '[Core Unity Project][suite]'
+      name: Core Unity Project
+      fullName: Core Unity Project
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: eb6b7775ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 9}
+    newResultList:
+    - id: 1000
+      uniqueId: '[Core Unity Project][suite]'
+      name: Core Unity Project
+      fullName: Core Unity Project
+      resultStatus: 2
+      duration: 6.1226234
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1005
+      uniqueId: Core Unity Project/[C:/Data/github/Core/Core/Core Unity Project/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]
+      name: Assembly-CSharp-Editor.dll
+      fullName: C:/Data/github/Core/Core/Core Unity Project/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+      resultStatus: 2
+      duration: 5.962699
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Core Unity Project][suite]'
+    - id: 1006
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/[Dvs][suite]
+      name: Dvs
+      fullName: Dvs
+      resultStatus: 2
+      duration: 5.92886
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: Core Unity Project/[C:/Data/github/Core/Core/Core Unity Project/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll][suite]
+    - id: 1007
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/[Dvs.Core][suite]
+      name: Core
+      fullName: Dvs.Core
+      resultStatus: 2
+      duration: 5.8948693
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/[Dvs][suite]
+    - id: 1008
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/[Dvs.Core.IoC][suite]
+      name: IoC
+      fullName: Dvs.Core.IoC
+      resultStatus: 2
+      duration: 5.859245
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/[Dvs.Core][suite]
+    - id: 1009
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/[Dvs.Core.IoC.Tests][suite]
+      name: Tests
+      fullName: Dvs.Core.IoC.Tests
+      resultStatus: 2
+      duration: 5.8363767
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/[Dvs.Core.IoC][suite]
+    - id: 1001
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDi][suite]
+      name: TestDi
+      fullName: Dvs.Core.IoC.Tests.TestDi
+      resultStatus: 2
+      duration: 5.8232985
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1025
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/[Dvs.Core.IoC.Tests][suite]
+    - id: 1004
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDi/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDi.Get_WhenCalledMultipleTimes_ReturnsTheSameObject]
+      name: Get_WhenCalledMultipleTimes_ReturnsTheSameObject
+      fullName: Dvs.Core.IoC.Tests.TestDi.Get_WhenCalledMultipleTimes_ReturnsTheSameObject
+      resultStatus: 1
+      duration: 0.0006403
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDi][suite]
+    - id: 1003
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDi/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDi.Get_WhenRequestingAnInterfaceWithNoSetup_ThrowsAFactoryNotConfiguredException]
+      name: Get_WhenRequestingAnInterfaceWithNoSetup_ThrowsAFactoryNotConfiguredException
+      fullName: Dvs.Core.IoC.Tests.TestDi.Get_WhenRequestingAnInterfaceWithNoSetup_ThrowsAFactoryNotConfiguredException
+      resultStatus: 1
+      duration: 0.0572094
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDi][suite]
+    - id: 1002
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDi/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDi.ObjectMayOnlyBeConfiguredAsSingletonOrFactory]
+      name: ObjectMayOnlyBeConfiguredAsSingletonOrFactory
+      fullName: Dvs.Core.IoC.Tests.TestDi.ObjectMayOnlyBeConfiguredAsSingletonOrFactory
+      resultStatus: 2
+      duration: 5.812549
+      messages: "System.TypeInitializationException : The type initializer for 'Factory'
+        threw an exception.\r\n  ----> Dvs.Core.IoC.DiTypeAlreadyConfiguredException
+        : The type Dvs.Core.IoC.Tests.SimpleObject was attempted to be configured
+        for both Singleton and Factory"
+      output: 
+      stacktrace: "  at Dvs.Core.IoC.Tests.TestDi.ObjectMayOnlyBeConfiguredAsSingletonOrFactory
+        () [0x00010] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Tests\\Editor\\TestDi.cs:28 \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <1f0c1ef1ad524c38bbc5536809c46b48>:0 \r\n--DiTypeAlreadyConfiguredException\r\n
+        \ at Dvs.Core.IoC.Di+Accessor.AddAccessor (Dvs.Core.IoC.Di+Accessor accessor,
+        System.Type type) [0x00011] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:137 \r\n  at Dvs.Core.IoC.Di`1+Factory[T]..cctor
+        () [0x00047] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:219 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDi][suite]
+    - id: 1001
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+      name: TestDiFactory
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory
+      resultStatus: 2
+      duration: 0.6042702
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/[Dvs.Core.IoC.Tests][suite]
+    - id: 1005
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.DiAccessorFullReset_WillEraseExistingConfigurations]
+      name: DiAccessorFullReset_WillEraseExistingConfigurations
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.DiAccessorFullReset_WillEraseExistingConfigurations
+      resultStatus: 1
+      duration: 0.0513942
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1003
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.Get_WhenCalledMultipleTimes_ReturnsDifferentInstances]
+      name: Get_WhenCalledMultipleTimes_ReturnsDifferentInstances
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.Get_WhenCalledMultipleTimes_ReturnsDifferentInstances
+      resultStatus: 2
+      duration: 0.0518709
+      messages: "System.TypeInitializationException : The type initializer for 'Factory'
+        threw an exception.\r\n  ----> Dvs.Core.IoC.DiTypeAlreadyConfiguredException
+        : The type Dvs.Core.IoC.Tests.SimpleObject was attempted to be configured
+        for both Singleton and Factory"
+      output: 
+      stacktrace: "  at Dvs.Core.IoC.Tests.TestDiFactory.Get_WhenCalledMultipleTimes_ReturnsDifferentInstances
+        () [0x0000c] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Tests\\Editor\\TestDiFactory.cs:74 \r\n  at (wrapper managed-to-native)
+        System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <1f0c1ef1ad524c38bbc5536809c46b48>:0 \r\n--DiTypeAlreadyConfiguredException\r\n
+        \ at Dvs.Core.IoC.Di+Accessor.AddAccessor (Dvs.Core.IoC.Di+Accessor accessor,
+        System.Type type) [0x00011] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:137 \r\n  at Dvs.Core.IoC.Di`1+Factory[T]..cctor
+        () [0x00047] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:219 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1002
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.Get_WhenCalledWithNoSetup_ReturnsDefaultConstructionOfType]
+      name: Get_WhenCalledWithNoSetup_ReturnsDefaultConstructionOfType
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.Get_WhenCalledWithNoSetup_ReturnsDefaultConstructionOfType
+      resultStatus: 2
+      duration: 0.0567449
+      messages: "System.TypeInitializationException : The type initializer for 'Factory'
+        threw an exception.\r\n  ----> Dvs.Core.IoC.DiTypeAlreadyConfiguredException
+        : The type Dvs.Core.IoC.Tests.SimpleObject was attempted to be configured
+        for both Singleton and Factory"
+      output: 
+      stacktrace: "  at Dvs.Core.IoC.Tests.TestDiFactory.Get_WhenCalledWithNoSetup_ReturnsDefaultConstructionOfType
+        () [0x0000a] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Tests\\Editor\\TestDiFactory.cs:29 \r\n  at (wrapper managed-to-native)
+        System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <1f0c1ef1ad524c38bbc5536809c46b48>:0 \r\n--DiTypeAlreadyConfiguredException\r\n
+        \ at Dvs.Core.IoC.Di+Accessor.AddAccessor (Dvs.Core.IoC.Di+Accessor accessor,
+        System.Type type) [0x00011] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:137 \r\n  at Dvs.Core.IoC.Di`1+Factory[T]..cctor
+        () [0x00047] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:219 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1003
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.Get_WhenRequestingAnInterfaceWithNoSetup_ThrowsAFactoryNotConfiguredException]
+      name: Get_WhenRequestingAnInterfaceWithNoSetup_ThrowsAFactoryNotConfiguredException
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.Get_WhenRequestingAnInterfaceWithNoSetup_ThrowsAFactoryNotConfiguredException
+      resultStatus: 1
+      duration: 0.0519531
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1004
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.SetConstructor_WhenBoundByType_WillReturnObject]
+      name: SetConstructor_WhenBoundByType_WillReturnObject
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.SetConstructor_WhenBoundByType_WillReturnObject
+      resultStatus: 1
+      duration: 0.0011864
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1003
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.SetConstructor_WhenBoundGenericly_WillReturnObject]
+      name: SetConstructor_WhenBoundGenericly_WillReturnObject
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.SetConstructor_WhenBoundGenericly_WillReturnObject
+      resultStatus: 1
+      duration: 0.0008804
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1004
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.SetConstructor_WhenGivenAFunctionReturningTheObject_WillAllowGetCallsToReturnTheObject]
+      name: SetConstructor_WhenGivenAFunctionReturningTheObject_WillAllowGetCallsToReturnTheObject
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.SetConstructor_WhenGivenAFunctionReturningTheObject_WillAllowGetCallsToReturnTheObject
+      resultStatus: 1
+      duration: 0.0007324
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1005
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.SetPoolCleanup_WillBeCalledWhenReturningObjectToPool]
+      name: SetPoolCleanup_WillBeCalledWhenReturningObjectToPool
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.SetPoolCleanup_WillBeCalledWhenReturningObjectToPool
+      resultStatus: 2
+      duration: 0.0625175
+      messages: "System.TypeInitializationException : The type initializer for 'Factory'
+        threw an exception.\r\n  ----> Dvs.Core.IoC.DiTypeAlreadyConfiguredException
+        : The type Dvs.Core.IoC.Tests.SimpleObject was attempted to be configured
+        for both Singleton and Factory"
+      output: 
+      stacktrace: "  at Dvs.Core.IoC.Tests.TestDiFactory.SetPoolCleanup_WillBeCalledWhenReturningObjectToPool
+        () [0x00026] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Tests\\Editor\\TestDiFactory.cs:110 \r\n  at (wrapper managed-to-native)
+        System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <1f0c1ef1ad524c38bbc5536809c46b48>:0 \r\n--DiTypeAlreadyConfiguredException\r\n
+        \ at Dvs.Core.IoC.Di+Accessor.AddAccessor (Dvs.Core.IoC.Di+Accessor accessor,
+        System.Type type) [0x00011] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:137 \r\n  at Dvs.Core.IoC.Di`1+Factory[T]..cctor
+        () [0x00047] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:219 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1007
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.SetPoolRestore_WithUsePoolFalse_WillNotBeCalledWhenGettingAnObject]
+      name: SetPoolRestore_WithUsePoolFalse_WillNotBeCalledWhenGettingAnObject
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.SetPoolRestore_WithUsePoolFalse_WillNotBeCalledWhenGettingAnObject
+      resultStatus: 2
+      duration: 0.057055
+      messages: "System.TypeInitializationException : The type initializer for 'Factory'
+        threw an exception.\r\n  ----> Dvs.Core.IoC.DiTypeAlreadyConfiguredException
+        : The type Dvs.Core.IoC.Tests.SimpleObject was attempted to be configured
+        for both Singleton and Factory"
+      output: 
+      stacktrace: "  at Dvs.Core.IoC.Tests.TestDiFactory.SetPoolRestore_WithUsePoolFalse_WillNotBeCalledWhenGettingAnObject
+        () [0x00021] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Tests\\Editor\\TestDiFactory.cs:165 \r\n  at (wrapper managed-to-native)
+        System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <1f0c1ef1ad524c38bbc5536809c46b48>:0 \r\n--DiTypeAlreadyConfiguredException\r\n
+        \ at Dvs.Core.IoC.Di+Accessor.AddAccessor (Dvs.Core.IoC.Di+Accessor accessor,
+        System.Type type) [0x00011] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:137 \r\n  at Dvs.Core.IoC.Di`1+Factory[T]..cctor
+        () [0x00047] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:219 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1006
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.SetPoolRestore_WithUsePoolTrue_WillBeCalledWhenGettingAnObject]
+      name: SetPoolRestore_WithUsePoolTrue_WillBeCalledWhenGettingAnObject
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.SetPoolRestore_WithUsePoolTrue_WillBeCalledWhenGettingAnObject
+      resultStatus: 2
+      duration: 0.0555445
+      messages: "System.TypeInitializationException : The type initializer for 'Factory'
+        threw an exception.\r\n  ----> Dvs.Core.IoC.DiTypeAlreadyConfiguredException
+        : The type Dvs.Core.IoC.Tests.SimpleObject was attempted to be configured
+        for both Singleton and Factory"
+      output: 
+      stacktrace: "  at Dvs.Core.IoC.Tests.TestDiFactory.SetPoolRestore_WithUsePoolTrue_WillBeCalledWhenGettingAnObject
+        () [0x00026] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Tests\\Editor\\TestDiFactory.cs:138 \r\n  at (wrapper managed-to-native)
+        System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <1f0c1ef1ad524c38bbc5536809c46b48>:0 \r\n--DiTypeAlreadyConfiguredException\r\n
+        \ at Dvs.Core.IoC.Di+Accessor.AddAccessor (Dvs.Core.IoC.Di+Accessor accessor,
+        System.Type type) [0x00011] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:137 \r\n  at Dvs.Core.IoC.Di`1+Factory[T]..cctor
+        () [0x00047] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:219 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1019
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiFactory/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory.UsePool_WhenSet_WillAllowReturnedObjectsToBeReused]
+      name: UsePool_WhenSet_WillAllowReturnedObjectsToBeReused
+      fullName: Dvs.Core.IoC.Tests.TestDiFactory.UsePool_WhenSet_WillAllowReturnedObjectsToBeReused
+      resultStatus: 2
+      duration: 0.0549414
+      messages: "System.TypeInitializationException : The type initializer for 'Factory'
+        threw an exception.\r\n  ----> Dvs.Core.IoC.DiTypeAlreadyConfiguredException
+        : The type Dvs.Core.IoC.Tests.SimpleObject was attempted to be configured
+        for both Singleton and Factory"
+      output: 
+      stacktrace: "  at Dvs.Core.IoC.Tests.TestDiFactory.UsePool_WhenSet_WillAllowReturnedObjectsToBeReused
+        () [0x0000c] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Tests\\Editor\\TestDiFactory.cs:90 \r\n  at (wrapper managed-to-native)
+        System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+        \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+        culture) [0x00032] in <1f0c1ef1ad524c38bbc5536809c46b48>:0 \r\n--DiTypeAlreadyConfiguredException\r\n
+        \ at Dvs.Core.IoC.Di+Accessor.AddAccessor (Dvs.Core.IoC.Di+Accessor accessor,
+        System.Type type) [0x00011] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:137 \r\n  at Dvs.Core.IoC.Di`1+Factory[T]..cctor
+        () [0x00047] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+        Core\\Scripts\\Di\\Di.cs:219 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiFactory][suite]
+    - id: 1011
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiSingleton][suite]
+      name: TestDiSingleton
+      fullName: Dvs.Core.IoC.Tests.TestDiSingleton
+      resultStatus: 1
+      duration: 39.059513
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1025
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/[Dvs.Core.IoC.Tests][suite]
+    - id: 1015
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiSingleton/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiSingleton.Get_WhenCalledMultipleTimes_ReturnsTheSameObject]
+      name: Get_WhenCalledMultipleTimes_ReturnsTheSameObject
+      fullName: Dvs.Core.IoC.Tests.TestDiSingleton.Get_WhenCalledMultipleTimes_ReturnsTheSameObject
+      resultStatus: 1
+      duration: 0.0006115
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiSingleton][suite]
+    - id: 1012
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiSingleton/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiSingleton.Get_WhenCalledWithNoSetup_ReturnsDefaultConstructionOfType]
+      name: Get_WhenCalledWithNoSetup_ReturnsDefaultConstructionOfType
+      fullName: Dvs.Core.IoC.Tests.TestDiSingleton.Get_WhenCalledWithNoSetup_ReturnsDefaultConstructionOfType
+      resultStatus: 1
+      duration: 0.000499
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1011
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiSingleton][suite]
+    - id: 1015
+      uniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/TestDiSingleton/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiSingleton.Get_WhenRequestingAnInterfaceWithNoSetup_ThrowsAFactoryNotConfiguredException]
+      name: Get_WhenRequestingAnInterfaceWithNoSetup_ThrowsAFactoryNotConfiguredException
+      fullName: Dvs.Core.IoC.Tests.TestDiSingleton.Get_WhenRequestingAnInterfaceWithNoSetup_ThrowsAFactoryNotConfiguredException
+      resultStatus: 1
+      duration: 39.03284
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: Core Unity Project/Assembly-CSharp-Editor.dll/Dvs/Core/IoC/Tests/[Assembly-CSharp-Editor][Dvs.Core.IoC.Tests.TestDiSingleton][suite]
+    m_ResultText: "ObjectMayOnlyBeConfiguredAsSingletonOrFactory (5.813s)\n---\nSystem.TypeInitializationException
+      : The type initializer for 'Factory' threw an exception.\r\n  ----> Dvs.Core.IoC.DiTypeAlreadyConfiguredException
+      : The type Dvs.Core.IoC.Tests.SimpleObject was attempted to be configured for
+      both Singleton and Factory\n---\nat Dvs.Core.IoC.Tests.TestDi.ObjectMayOnlyBeConfiguredAsSingletonOrFactory
+      () [0x00010] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+      Core\\Tests\\Editor\\TestDi.cs:28 \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+      \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x00032] in <1f0c1ef1ad524c38bbc5536809c46b48>:0 \r\n--DiTypeAlreadyConfiguredException\r\n
+      \ at Dvs.Core.IoC.Di+Accessor.AddAccessor (Dvs.Core.IoC.Di+Accessor accessor,
+      System.Type type) [0x00011] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+      Core\\Scripts\\Di\\Di.cs:137 \r\n  at Dvs.Core.IoC.Di`1+Factory[T]..cctor ()
+      [0x00047] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS Core\\Scripts\\Di\\Di.cs:219"
+    m_ResultStacktrace: "  at Dvs.Core.IoC.Tests.TestDi.ObjectMayOnlyBeConfiguredAsSingletonOrFactory
+      () [0x00010] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+      Core\\Tests\\Editor\\TestDi.cs:28 \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n
+      \ at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x00032] in <1f0c1ef1ad524c38bbc5536809c46b48>:0 \r\n--DiTypeAlreadyConfiguredException\r\n
+      \ at Dvs.Core.IoC.Di+Accessor.AddAccessor (Dvs.Core.IoC.Di+Accessor accessor,
+      System.Type type) [0x00011] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS
+      Core\\Scripts\\Di\\Di.cs:137 \r\n  at Dvs.Core.IoC.Di`1+Factory[T]..cctor ()
+      [0x00047] in C:\\Data\\github\\Core\\Core\\Core Unity Project\\Assets\\DVS Core\\Scripts\\Di\\Di.cs:219 "
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: a16e2ef1
+      m_LastClickedID: -248615263
+      m_ExpandedIDs: 87458294832939bf7eb187c12a8b3dec87eb3afb9584a426d6660c4fc44c8558eb6b7775ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: -1
+      availableCategories:
+      - Uncategorized
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12079, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 390, y: 390}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Lighting
+    m_Image: {fileID: -1347227620855488341, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2529
+    y: -1239
+    width: 496
+    height: 1071
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 740.6667
+    width: 907
+    height: 406
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 27
+    y: 731
+    width: 928
+    height: 297
+  m_ViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper: []
+    m_ValueSerializationHelper: []
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 0}
+  m_BreadCrumbs: []
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12137, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 225, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Particle Effect
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 740.6667
+    width: 854
+    height: 405
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1057.3334
+    y: 72.66667
+    width: 349
+    height: 1074
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SearchArea: 1
+    m_Folders: []
+  m_ViewMode: 0
+  m_StartGridSize: 64
+  m_LastFolders: []
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Data\github\Core\Core\Core Unity Project
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 3151}
+    m_SelectedIDs: 1ab70100
+    m_LastClickedID: 112410
+    m_ExpandedIDs: 00000000b8290000ca2a0000e42a0000ea2a0000702b0000f62b00000a2c0000402c0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff00000000b8290000ca2a0000e42a0000ea2a0000702b0000f62b00000a2c0000402c0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_DirectoriesAreaWidth: 110
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1408
+    y: 72.66667
+    width: 414
+    height: 1074
+  m_ViewDataDictionary: {fileID: 0}
+  m_OpenAddComponentMenu: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}

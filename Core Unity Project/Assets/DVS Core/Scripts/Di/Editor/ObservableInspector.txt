@@ -1,0 +1,108 @@
+﻿using System;
+using System.Text;
+using System.Reflection;
+
+using UnityEngine;
+using UnityEditor;
+
+using ObservableNamespace.Runtime;
+
+namespace ObservableNamespace.CustomEditor
+{
+    /// <summary>
+    /// Custom Inspector typeof(Observable)
+    /// </summary>
+    [UnityEditor.CustomEditor(typeof(Observable))]
+    public class ObservableInspector : Editor
+    {
+
+        private PropertyInfo propertyInfo;      //the property Type of SerializableField of the Observable
+        private object targetObject;            //the SerializableType object
+        private EditorWindow window;
+
+        #region Unity Callbacks
+        private void OnEnable()
+        {
+            window = EditorWindow.focusedWindow;
+
+            Type objType = target.GetType();
+            Type serializedType_type = objType.GetField("serializableType", BindingFlags.Instance | BindingFlags.NonPublic).FieldType;
+            propertyInfo = serializedType_type.GetProperty("Type", BindingFlags.Instance | BindingFlags.Public);
+            targetObject = objType.GetField("serializableType", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(target);
+
+        }
+
+        public override void OnInspectorGUI()
+        {
+            if (targetObject == null)   //prevents the Inspector from drawing while initializing new Instance in Editor
+                return;
+
+            Type currentValue = propertyInfo.GetValue(targetObject) as Type;
+            string value = currentValue == null ? "null" : NameWithParent(currentValue.FullName);
+            GUILayout.BeginHorizontal();
+            GUILayout.Label("Type: " + value);
+
+            if (GUILayout.Button("Search"))
+            {
+                Rect currentRect = EditorWindow.focusedWindow.position;
+                Rect buttonRect = GUILayoutUtility.GetLastRect();
+                Rect targetRectPosition = new Rect(currentRect.position - buttonRect.position, new Vector2(1, 1));
+                SearchType(targetRectPosition, OnTypeSelectedHandler);
+
+            }
+
+            if (GUILayout.Button("Clear"))
+            {
+                Clear();
+            }
+            GUILayout.EndHorizontal();
+
+        }
+
+        private string NameWithParent(string fullName)
+        {
+            if (string.IsNullOrWhiteSpace(fullName))
+            {
+                return fullName;
+            }
+
+            var hasNoLineage = !fullName.Contains(".");
+
+            if (hasNoLineage)
+            {
+                return fullName;
+            }
+
+            var pathParts = fullName.Split('.');
+
+            var lastIndex = pathParts.Length - 1;
+            return pathParts[lastIndex - 1] + '.' + pathParts[lastIndex];
+        }
+
+        private void OnDestroy()
+        {
+            GC.Collect();   //can be removed
+        }
+
+        #endregion
+        private void SearchType(Rect buttonRect, Action<Type> OnTypeSelectedHandler)
+        {
+            SearchWindow.Init(buttonRect, OnTypeSelectedHandler);
+        }
+
+        private void Clear()
+        {
+            propertyInfo.SetValue(targetObject, null);
+        }
+
+        protected void OnTypeSelectedHandler(Type type)
+        {
+            propertyInfo.SetValue(targetObject, type);
+            window.Focus();
+            EditorUtility.SetDirty(target);
+        }
+
+        
+    }
+
+}

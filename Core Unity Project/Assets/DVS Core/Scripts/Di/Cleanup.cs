@@ -49,7 +49,8 @@ namespace Dvs.Core.IoC
         [DiSetup]
         private static void DiSetup()
         {
-            Di.Bind<ICleanup>().AsSingleton<Cleanup>();
+            //Di.Bind<ICleanup>().AsSingleton<Cleanup>();
+            Di<ICleanup>.Singleton.Bind<Cleanup>();
         }
     }
 }

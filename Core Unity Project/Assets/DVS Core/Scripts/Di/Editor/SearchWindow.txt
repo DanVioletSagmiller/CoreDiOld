@@ -1,0 +1,135 @@
+﻿using System;
+using System.Collections.Generic;
+
+using UnityEngine;
+using UnityEditor;
+
+using ObservableNamespace.Utilities;
+
+namespace ObservableNamespace.CustomEditor
+{
+    /// <summary>
+    /// Search EditorWindow for Type objects
+    /// </summary>
+    public class SearchWindow : EditorWindow
+    {
+
+        private static Vector2 windowSize;
+        private static Action<Type> OnTypeSelectedHandler;
+        private static int resultShowCount = 20;
+
+        private List<Type> allTypes;
+        private string searchString = "";
+        private Type[] filteredList;
+        private bool searchStringChanged;
+        private GUIStyle style;
+
+        public static SearchWindow Init(Rect buttonRect, Action<Type> OnTypeSelectedHandler)
+        {
+
+
+            SearchWindow window = GetWindow<SearchWindow>();
+            if (window.style == null)
+            {
+                window.style = new GUIStyle(GUI.skin.button);
+                window.style.alignment = TextAnchor.MiddleLeft;
+            }
+
+            window.titleContent = new GUIContent("Select Type");
+            SearchWindow.OnTypeSelectedHandler = OnTypeSelectedHandler;
+            window.ShowAsDropDown(buttonRect, new Vector2(250, EditorGUIUtility.singleLineHeight * (resultShowCount + 9)));
+            window.ShowPopup();
+            return window;
+        }
+
+        #region Unity Callbacks
+        private void OnEnable()
+        {
+            allTypes = Utility.GetAllTypes();
+            filteredList = new Type[resultShowCount];
+            UpdateFilterdList("");
+        }
+
+        private void OnGUI()
+        {
+            GUILayout.Label("Search: ");
+            string currentSearchString = EditorGUILayout.TextField(searchString);
+
+            if (currentSearchString != searchString)
+            {
+                UpdateFilterdList(currentSearchString);
+                searchString = currentSearchString;
+            }
+
+            foreach (var t in filteredList)
+            {
+                if (t != null)
+                    if (GUILayout.Button(NameWithParent(t.FullName), style))
+                        OnTypeSelectedHandler(t);
+            }
+        }
+
+        private string NameWithParent(string fullName)
+        {
+            if (string.IsNullOrWhiteSpace(fullName))
+            {
+                return fullName;
+            }
+
+            var hasNoLineage = !fullName.Contains(".");
+
+            if (hasNoLineage)
+            {
+                return fullName;
+            }
+
+            var pathParts = fullName.Split('.');
+
+            var lastIndex = pathParts.Length - 1;
+            return pathParts[lastIndex - 1] + '.' + pathParts[lastIndex];
+        }
+
+        private void OnLostFocus()
+        {
+            ClearFilteredList(0);
+            allTypes.Clear();
+            OnTypeSelectedHandler = null;
+            GC.Collect();
+            Close();
+        }
+
+        #endregion
+
+        private void UpdateFilterdList(string searchString)
+        {
+            int count = 0;
+            int index = 0;
+            int safeCount = 0;
+            do
+            {
+                if (index >= allTypes.Count - 1)
+                    break;
+
+                if (searchString == "" || allTypes[index].FullName.IndexOf(searchString, StringComparison.OrdinalIgnoreCase) > -1)
+                {
+                    filteredList[count] = allTypes[index];
+                    count++;
+                }
+                index++;
+
+                safeCount++;
+                if (safeCount >= 500000)
+                    break;
+            } while (count < resultShowCount);
+
+            if (count < resultShowCount - 1)
+                ClearFilteredList(count);
+        }
+
+        private void ClearFilteredList(int fromIndex)
+        {
+            for (int i = fromIndex; i < filteredList.Length; i++)
+                filteredList[i] = null;
+        }
+    }
+}

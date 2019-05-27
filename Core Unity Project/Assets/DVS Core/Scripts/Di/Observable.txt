@@ -1,0 +1,29 @@
+﻿using Dvs.Core.IoC;
+using System;
+using System.Reflection;
+
+using UnityEngine;
+
+namespace ObservableNamespace.Runtime
+{
+    [CreateAssetMenu(fileName = "", menuName = "Observable")]
+    public class Observable : ScriptableObject
+    {
+
+        private Type Type { get { return serializableType.Type; } }
+
+        [SerializeField]
+        [HideInInspector]
+        private SerializableType serializableType;
+
+        public void Trigger()
+        {
+            // replaces Di.TriggerEvent<Object>();
+            var diType = typeof(Di);
+            var callerMethod = diType.GetMethod(nameof(Di.TriggerEvent));
+            var genericCallerMethod = callerMethod.MakeGenericMethod(Type);
+            genericCallerMethod.Invoke(null, null);
+        }
+
+    }
+}

@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace ObservableNamespace.Utilities
+{
+    public class Utility
+    {
+
+        public static List<Type> GetAllTypes()
+        {
+            return (from domainAssembly in AppDomain.CurrentDomain.GetAssemblies()
+                    from assemblyType in domainAssembly.GetTypes()
+                    select assemblyType).ToList();
+
+        }
+
+        public static List<System.Reflection.Assembly> GetAllAssemblies()
+        {
+            List<System.Reflection.Assembly> result = new List<System.Reflection.Assembly>();
+            //foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
+            //    result.Add(assembly);
+
+            return (from domainAssembly in AppDomain.CurrentDomain.GetAssemblies()
+                    select domainAssembly).ToList();
+        }
+    }
+}
